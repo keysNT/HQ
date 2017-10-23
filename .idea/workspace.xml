@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/notification.php" line="300" />
+    <bookmark url="file://$PROJECT_DIR$/wp-includes/nav-menu-template.php" line="252" />
+    <bookmark url="file://$PROJECT_DIR$/wp-includes/nav-menu-template.php" line="188" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php" line="163" />
+    <bookmark url="file://$PROJECT_DIR$/wp-includes/pluggable.php" line="961" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/class-user.php" line="143" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/user.php" line="299" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/hooks.php" line="408" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/hooks.php" line="421" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/user.php" line="268" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/about.php" line="111" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/user-questions.php" line="4" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/class/activity.php" line="624" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/ajax_notific.js" line="23" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php" line="74" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/themes/bluebell/content-page.php" line="6" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/notification.php" line="28" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php" line="170" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf496540-1275-40fc-8692-0ed03fea81bd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="bb.seoulmage.com.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="bb.seoulmage.com" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ajax_notific.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/ajax_notific.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!block;n#remove_notific_seen#0" expanded="false" />
+                <marker date="1507515746529" expanded="true" signature="2846:2870" ph="..." />
+                <marker date="1507515746529" expanded="true" signature="2952:2976" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-settings.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+              <folding>
+                <marker date="1508558333176" expanded="true" signature="7858:7872" ph="..." />
+                <marker date="1508558333176" expanded="true" signature="8722:8727" ph="..." />
+                <marker date="1508558333176" expanded="true" signature="8722:8740" ph="..." />
+                <marker date="1508558333176" expanded="true" signature="8722:8745" ph="..." />
+                <marker date="1508558333176" expanded="true" signature="8722:8746" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class-wp-hook.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-hook.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4545">
+              <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="magenest-notific-news.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="43" column="65" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+              <folding>
+                <marker date="1507515421440" expanded="true" signature="3005:3079" ph="SELECT noti_... ${$tbl}" />
+                <marker date="1507515421440" expanded="true" signature="3235:3293" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/plugins/cz-redirect-login-to-questions/cz-redirect-login-to-questions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/cz-redirect-login-to-questions/funtions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/search-form.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/categories-for-anspress/categories-for-anspress.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/notification.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bluebell/anspress/login-signup.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/login-signup.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/categories-for-anspress/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommercer-notific-new-post/woocommercer-notific-new-post.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocomerce-notific-new-post/woocommercer-notific-new-post.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/mark-new-posts/mark-new-posts.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocomerce-notific-new-post/woocomerce-notific-new-post.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocomerce-notific-new-post/templates/admin-settings.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocomerce-notific-new-post/includes/admin-settings.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bluebell/header.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-includes/nav-menu-template.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/uninstall.php" />
+        <option value="$PROJECT_DIR$/wp-includes/pluggable.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/question-loop.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/fonts/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/hooks.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/admin/views/dashboard.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/user.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/user-questions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/widgets/notifications.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bluebell/content.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bluebell/content-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bluebell/anspress/question.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bluebell/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bluebell/page-templates/forum-template.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/notification.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/class-user.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/theme.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/about.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/class/activity.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/widgets/users.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/users/loop-item.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/content-none.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/user.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bluebell/anspress/user/user.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/ajax-hooks.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/ajax_notific.js" />
+        <option value="$USER_HOME$/.cache/.fr-C4RzKg/Ticket/view/adminhtml/ui_component/product_form.xml" />
+        <option value="$USER_HOME$/.cache/.fr-E88Buo/Ticket/view/adminhtml/ui_component/product_form.xml" />
+        <option value="$USER_HOME$/.cache/.fr-AMsQCl/QuickBooksOnline/Ui/Component/Listing/Columns/Mapping.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="f02f6a3a-cd89-4d71-88b5-d5f1918fc8e3" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1600" />
+    <option name="height" value="831" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notific-news-post" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notific-news-post" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bb.seoulmage.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notific-news-post" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../review/SalesforceIntegration" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf496540-1275-40fc-8692-0ed03fea81bd" name="Default" comment="" />
+      <created>1502758242610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1502758242610</updated>
+      <workItem from="1502758243939" duration="30323000" />
+      <workItem from="1502845176149" duration="12000" />
+      <workItem from="1502867468453" duration="314000" />
+      <workItem from="1502932961184" duration="619000" />
+      <workItem from="1502941400156" duration="1403000" />
+      <workItem from="1503103159058" duration="612000" />
+      <workItem from="1503562592620" duration="6042000" />
+      <workItem from="1503622325202" duration="256000" />
+      <workItem from="1503641695116" duration="9818000" />
+      <workItem from="1503707101427" duration="7234000" />
+      <workItem from="1503745574368" duration="1706000" />
+      <workItem from="1503880367250" duration="5248000" />
+      <workItem from="1503975105695" duration="5058000" />
+      <workItem from="1503989992241" duration="1850000" />
+      <workItem from="1504054597953" duration="30140000" />
+      <workItem from="1504158012419" duration="22648000" />
+      <workItem from="1504232130833" duration="611000" />
+      <workItem from="1504840232491" duration="10281000" />
+      <workItem from="1505194644612" duration="9497000" />
+      <workItem from="1505262954546" duration="14916000" />
+      <workItem from="1505349385564" duration="18136000" />
+      <workItem from="1505454876463" duration="5578000" />
+      <workItem from="1505545030173" duration="11436000" />
+      <workItem from="1505958102552" duration="9764000" />
+      <workItem from="1505978921271" duration="6297000" />
+      <workItem from="1506299887717" duration="3029000" />
+      <workItem from="1506387019692" duration="1815000" />
+      <workItem from="1506415514831" duration="605000" />
+      <workItem from="1506991750249" duration="7785000" />
+      <workItem from="1507010232543" duration="9456000" />
+      <workItem from="1507078058259" duration="12332000" />
+      <workItem from="1507164005225" duration="615000" />
+      <workItem from="1507337592210" duration="14885000" />
+      <workItem from="1507509346848" duration="11425000" />
+      <workItem from="1507601452624" duration="1908000" />
+      <workItem from="1507686796542" duration="1888000" />
+      <workItem from="1508308498922" duration="1260000" />
+      <workItem from="1508484671301" duration="879000" />
+      <workItem from="1508552409879" duration="9252000" />
+      <workItem from="1508736858533" duration="1223000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="288156000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1600" height="831" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24066924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15102041" sideWeight="0.502574" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25225225" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8276334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3877551" sideWeight="0.497426" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/theme.php</url>
+          <line>353</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/bluebell/single.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/bluebell/single.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/bluebell/single.php</url>
+          <line>41</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/widgets/notifications.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/widgets/notifications.php</url>
+          <line>34</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/class/activity.php</url>
+          <line>688</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/class/activity.php</url>
+          <line>704</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php</url>
+          <line>191</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php</url>
+          <line>199</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="435" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../phpmyadmin/phpmyadmin.css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../phpmyadmin/js/get_scripts.js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/assets/js/anspress_site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="327" column="46" selection-start-line="327" selection-start-column="46" selection-end-line="327" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../AppointmentBooking/wp-admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bluebell/page-templates/forum-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1205">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/notification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="152" selection-start-line="28" selection-start-column="152" selection-end-line="28" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../phpmyadmin/tbl_select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/class-user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8460">
+          <caret line="572" column="0" selection-start-line="572" selection-start-column="0" selection-end-line="572" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../phpmyadmin/lint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../phpmyadmin/sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/widgets/notifications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/notification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="353" column="31" selection-start-line="353" selection-start-column="9" selection-end-line="353" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="194" column="64" selection-start-line="194" selection-start-column="64" selection-end-line="194" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../phpmyadmin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/formatting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="2993" column="9" selection-start-line="2993" selection-start-column="9" selection-end-line="2993" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/theme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8115">
+          <caret line="551" column="0" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/content-none.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bluebell/anspress/user/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/js-template/user-hover.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1270">
+          <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/ajax-hooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290">
+          <caret line="461" column="49" selection-start-line="461" selection-start-column="49" selection-end-line="461" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/widgets/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/users/loop-item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bluebell/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="115" selection-start-line="23" selection-start-column="89" selection-end-line="23" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="897" column="79" selection-start-line="897" selection-start-column="55" selection-end-line="897" selection-end-column="79" />
+          <folding>
+            <marker date="1505272874674" expanded="true" signature="952:986" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
+            <marker date="1505272874674" expanded="true" signature="1785:2002" ph="SELECT count... ${$wpdb-&gt;postmeta}" />
+            <marker date="1505272874674" expanded="true" signature="2388:2642" ph="SELECT count... ${$wpdb-&gt;postmeta}" />
+            <marker date="1505272874674" expanded="true" signature="20959:21231" ph="SELECT sum(v... " />
+            <marker date="1505272874674" expanded="true" signature="25607:25689" ph="SELECT COUNT... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/class/activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="798" column="25" selection-start-line="798" selection-start-column="25" selection-end-line="798" selection-end-column="25" />
+          <folding>
+            <marker date="1507090008029" expanded="true" signature="2944:3015" ph="SELECT SQL_C... ${$wpdb-&gt;prefix}" />
+            <marker date="1507090008029" expanded="true" signature="3979:4014" ph="SELECT SQL_C... " />
+            <marker date="1507090008029" expanded="true" signature="4028:4077" ph="SELECT * fro... $" />
+            <marker date="1507090008029" expanded="true" signature="17817:17863" ph="SELECT * FRO... ${$wpdb-&gt;ap_activity}" />
+            <marker date="1507090008029" expanded="true" signature="22944:22978" ph="SELECT id FR... ${$wpdb-&gt;ap_activity}" />
+            <marker date="1507090008029" expanded="true" signature="23138:23211" ph="SELECT id FR... ${$wpdb-&gt;ap_activity}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cache/.fr-C4RzKg/Ticket/view/adminhtml/ui_component/product_form.xml" />
+    <entry file="file://$USER_HOME$/.cache/.fr-E88Buo/Ticket/view/adminhtml/ui_component/product_form.xml" />
+    <entry file="file://$USER_HOME$/.cache/.fr-ceqMBF/Ticket/view/adminhtml/ui_component/product_form.xml" />
+    <entry file="file://$USER_HOME$/.cache/.fr-kWmaCV/QuickBooksOnline/Ui/Component/Listing/Columns/Mapping.php" />
+    <entry file="file://$USER_HOME$/.cache/.fr-AMsQCl/QuickBooksOnline/Ui/Component/Listing/Columns/Mapping.php" />
+    <entry file="file://$USER_HOME$/.cache/.fr-ykxuxY/QuickBooksOnline/Ui/Component/Listing/Columns/Mapping.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bluebell/anspress/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bluebell/anspress/login-signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bluebell/anspress/question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="679" column="0" selection-start-line="679" selection-start-column="0" selection-end-line="679" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/wp-db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="668" column="0" selection-start-line="668" selection-start-column="0" selection-end-line="668" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="378" column="0" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="754" column="0" selection-start-line="754" selection-start-column="0" selection-end-line="754" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="3477" column="9" selection-start-line="3477" selection-start-column="9" selection-end-line="3477" selection-end-column="9" />
+          <folding>
+            <marker date="1504841954578" expanded="true" signature="17236:17340" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1504841954578" expanded="true" signature="18399:18503" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1504841954578" expanded="true" signature="38380:38449" ph="SELECT optio... ${$wpdb-&gt;options}" />
+            <marker date="1504841954578" expanded="true" signature="147042:147138" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1504841954578" expanded="true" signature="147601:147703" ph="SELECT comme... ${$wpdb-&gt;commentmeta}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="3236" column="48" selection-start-line="3236" selection-start-column="48" selection-end-line="3236" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="1688" column="30" selection-start-line="1688" selection-start-column="30" selection-end-line="1688" selection-end-column="30" />
+          <folding>
+            <marker date="1504841948882" expanded="true" signature="57509:57525" ph="Insert into post... " />
+            <marker date="1504841948882" expanded="true" signature="57535:57551" ph="Insert into page... " />
+            <marker date="1504841948882" expanded="true" signature="83259:83343" ph="SELECT post_... $" />
+            <marker date="1504841948882" expanded="true" signature="85279:85430" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="85600:85693" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="91421:91461" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="92868:92936" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="93261:93338" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="93790:93855" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1504841948882" expanded="true" signature="94048:94102" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1504841948882" expanded="true" signature="98690:98773" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1504841948882" expanded="true" signature="100695:100778" ph="UPDATE ${$wp... " />
+            <marker date="1504841948882" expanded="true" signature="120641:120682" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="132181:132257" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="133330:133465" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="134583:134678" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="148833:148885" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="151469:151609" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="153426:153524" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="153585:153662" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="165719:165777" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="170187:170227" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="171345:171410" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1504841948882" expanded="true" signature="171604:171658" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1504841948882" expanded="true" signature="172229:172348" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1504841948882" expanded="true" signature="194507:194652" ph="SELECT post_... " />
+            <marker date="1504841948882" expanded="true" signature="194708:194849" ph="SELECT post_... " />
+            <marker date="1504841948882" expanded="true" signature="194945:195139" ph="SELECT DATE_... " />
+            <marker date="1504841948882" expanded="true" signature="205863:205973" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1504841948882" expanded="true" signature="208494:208550" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="43" column="65" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+          <folding>
+            <marker date="1507515421440" expanded="true" signature="3005:3079" ph="SELECT noti_... ${$tbl}" />
+            <marker date="1507515421440" expanded="true" signature="3235:3293" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/ajax_notific.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!block;n#remove_notific_seen#0" expanded="false" />
+            <marker date="1507515746529" expanded="true" signature="2846:2870" ph="..." />
+            <marker date="1507515746529" expanded="true" signature="2952:2976" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-hook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4545">
+          <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+          <folding>
+            <marker date="1508558333176" expanded="true" signature="7858:7872" ph="..." />
+            <marker date="1508558333176" expanded="true" signature="8722:8727" ph="..." />
+            <marker date="1508558333176" expanded="true" signature="8722:8740" ph="..." />
+            <marker date="1508558333176" expanded="true" signature="8722:8745" ph="..." />
+            <marker date="1508558333176" expanded="true" signature="8722:8746" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

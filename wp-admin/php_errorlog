@@ -1,0 +1,359 @@
+[24-Nov-2016 05:15:22 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[28-Nov-2016 06:03:25 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:03:26 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:03:27 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:03:33 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:03:34 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:03:34 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:04 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:05 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:06 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:55 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:56 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:56 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:12 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:12 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:12 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:19 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:20 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:20 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[08-Dec-2016 06:27:28 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[08-Dec-2016 06:27:28 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[08-Dec-2016 06:34:12 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[08-Dec-2016 06:34:12 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[08-Dec-2016 06:35:37 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 371
+[08-Dec-2016 06:35:37 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 376
+[08-Dec-2016 06:52:20 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 371
+[08-Dec-2016 06:52:20 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 376
+[21-Dec-2016 08:21:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:21:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:21:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:21:12 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:21:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:21:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:21:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:21:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:21:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:21:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:23:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:23:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:23:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:23:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:23:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[11-Apr-2017 07:58:10 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[11-Apr-2017 07:58:10 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[12-Apr-2017 01:58:20 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 371
+[12-Apr-2017 01:58:20 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 376
+[26-Apr-2017 08:55:15 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/bb/public_html/wp-content/themes/bluebell/functions.php on line 24
+[26-Apr-2017 08:55:19 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/bb/public_html/wp-content/themes/bluebell/functions.php on line 24
+[26-Apr-2017 08:57:02 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/bb/public_html/wp-content/themes/bluebell/functions.php on line 18
+[15-May-2017 12:54:35 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 371
+[15-May-2017 12:54:35 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 376
+[15-May-2017 13:02:28 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[15-May-2017 13:02:28 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[14-Jun-2017 00:25:04 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[14-Jun-2017 00:25:04 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[03-Jul-2017 01:30:06 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[03-Jul-2017 01:30:06 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[26-Jul-2017 03:21:20 UTC] PHP Fatal error:  Call to undefined method WP_Error::get_item_quantity() in /home/bb/public_html/wp-content/plugins/anspress-question-answer/admin/views/dashboard.php on line 294
+[26-Jul-2017 03:36:35 UTC] PHP Fatal error:  Call to undefined method WP_Error::get_item_quantity() in /home/bb/public_html/wp-content/plugins/anspress-question-answer/admin/views/dashboard.php on line 294
+[26-Jul-2017 03:36:40 UTC] PHP Fatal error:  Call to undefined method WP_Error::get_item_quantity() in /home/bb/public_html/wp-content/plugins/anspress-question-answer/admin/views/dashboard.php on line 294
+[15-Aug-2017 11:24:39 UTC] PHP Fatal error:  Cannot redeclare class AnsPress_Activity_Hook in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/notification.php on line 16
+[15-Aug-2017 11:33:41 UTC] id post
+[15-Aug-2017 11:33:41 UTC] 1824
+[15-Aug-2017 11:33:41 UTC] 1
+[15-Aug-2017 11:33:41 UTC] post_id
+[15-Aug-2017 11:33:41 UTC] 1824
+[15-Aug-2017 11:33:41 UTC] is_share
+[15-Aug-2017 11:33:41 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[15-Aug-2017 11:56:26 UTC] id post
+[15-Aug-2017 11:56:26 UTC] 1825
+[15-Aug-2017 11:56:26 UTC] 
+[15-Aug-2017 11:56:26 UTC] post_id
+[15-Aug-2017 11:56:26 UTC] 1825
+[15-Aug-2017 11:56:26 UTC] is_share
+[15-Aug-2017 11:56:26 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[15-Aug-2017 12:03:49 UTC] id post
+[15-Aug-2017 12:03:49 UTC] 1828
+[15-Aug-2017 12:03:49 UTC] 1
+[15-Aug-2017 12:03:49 UTC] post_id
+[15-Aug-2017 12:03:49 UTC] 1828
+[15-Aug-2017 12:03:49 UTC] is_share
+[15-Aug-2017 12:03:49 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[15-Aug-2017 12:12:03 UTC] id post
+[15-Aug-2017 12:12:03 UTC] 1829
+[15-Aug-2017 12:12:03 UTC] 1
+[15-Aug-2017 12:12:03 UTC] post_id
+[15-Aug-2017 12:12:03 UTC] 1829
+[15-Aug-2017 12:12:03 UTC] is_share
+[15-Aug-2017 12:12:03 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[15-Aug-2017 13:15:33 UTC] id post
+[15-Aug-2017 13:15:33 UTC] 1830
+[15-Aug-2017 13:15:33 UTC] 1
+[15-Aug-2017 13:15:33 UTC] post_id
+[15-Aug-2017 13:15:33 UTC] 1830
+[15-Aug-2017 13:15:33 UTC] is_share
+[15-Aug-2017 13:15:33 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[17-Aug-2017 01:34:45 UTC] id post
+[17-Aug-2017 01:34:45 UTC] 1831
+[17-Aug-2017 01:34:45 UTC] 1
+[17-Aug-2017 01:34:45 UTC] post_id
+[17-Aug-2017 01:34:45 UTC] 1831
+[17-Aug-2017 01:34:45 UTC] is_share
+[17-Aug-2017 01:34:45 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[22-Aug-2017 02:05:45 UTC] id post
+[22-Aug-2017 02:05:45 UTC] 1833
+[22-Aug-2017 02:05:45 UTC] 1
+[22-Aug-2017 02:05:45 UTC] post_id
+[22-Aug-2017 02:05:45 UTC] 1833
+[22-Aug-2017 02:05:45 UTC] is_share
+[22-Aug-2017 02:05:45 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[22-Aug-2017 06:19:10 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/subscriber.php on line 185
+[22-Aug-2017 06:19:13 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/subscriber.php on line 185
+[22-Aug-2017 06:19:37 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/subscriber.php on line 185
+[22-Aug-2017 06:19:54 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/subscriber.php on line 185
+[22-Aug-2017 06:20:35 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/subscriber.php on line 185
+[23-Aug-2017 05:40:39 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/subscriber.php on line 185
+[25-Aug-2017 05:54:58 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 371
+[25-Aug-2017 05:54:58 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 376
+[25-Aug-2017 06:05:15 UTC] id post
+[25-Aug-2017 06:05:15 UTC] 1833
+[25-Aug-2017 06:05:15 UTC] 1
+[25-Aug-2017 06:22:26 UTC] id post
+[25-Aug-2017 06:22:26 UTC] 1867
+[25-Aug-2017 06:22:26 UTC] 
+[25-Aug-2017 06:22:26 UTC] post_id
+[25-Aug-2017 06:22:26 UTC] 1867
+[25-Aug-2017 06:22:26 UTC] is_share
+[25-Aug-2017 06:22:26 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[25-Aug-2017 06:33:52 UTC] id post
+[25-Aug-2017 06:33:52 UTC] 1872
+[25-Aug-2017 06:33:52 UTC] 
+[25-Aug-2017 06:33:52 UTC] post_id
+[25-Aug-2017 06:33:52 UTC] 1872
+[25-Aug-2017 06:33:52 UTC] is_share
+[25-Aug-2017 06:33:52 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[25-Aug-2017 07:36:31 UTC] id post
+[25-Aug-2017 07:36:31 UTC] 1877
+[25-Aug-2017 07:36:31 UTC] 1
+[25-Aug-2017 07:36:31 UTC] post_id
+[25-Aug-2017 07:36:31 UTC] 1877
+[25-Aug-2017 07:36:31 UTC] is_share
+[25-Aug-2017 07:36:31 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[25-Aug-2017 07:37:21 UTC] id post
+[25-Aug-2017 07:37:21 UTC] 1882
+[25-Aug-2017 07:37:21 UTC] 1
+[25-Aug-2017 07:37:21 UTC] post_id
+[25-Aug-2017 07:37:21 UTC] 1882
+[25-Aug-2017 07:37:21 UTC] is_share
+[25-Aug-2017 07:37:21 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[28-Aug-2017 08:19:18 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[28-Aug-2017 08:19:18 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[28-Aug-2017 08:22:58 UTC] id post
+[28-Aug-2017 08:22:58 UTC] 1887
+[28-Aug-2017 08:22:58 UTC] 
+[28-Aug-2017 08:22:58 UTC] post_id
+[28-Aug-2017 08:22:58 UTC] 1887
+[28-Aug-2017 08:22:58 UTC] is_share
+[28-Aug-2017 08:22:58 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[28-Aug-2017 09:07:46 UTC] id post
+[28-Aug-2017 09:07:46 UTC] 1888
+[28-Aug-2017 09:07:46 UTC] 
+[28-Aug-2017 09:07:46 UTC] post_id
+[28-Aug-2017 09:07:46 UTC] 1888
+[28-Aug-2017 09:07:46 UTC] is_share
+[28-Aug-2017 09:07:46 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[28-Aug-2017 09:13:45 UTC] id post
+[28-Aug-2017 09:13:45 UTC] 1889
+[28-Aug-2017 09:13:45 UTC] 
+[28-Aug-2017 09:13:45 UTC] post_id
+[28-Aug-2017 09:13:45 UTC] 1889
+[28-Aug-2017 09:13:45 UTC] is_share
+[28-Aug-2017 09:13:45 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[28-Aug-2017 09:28:56 UTC] id post
+[28-Aug-2017 09:28:56 UTC] 1894
+[28-Aug-2017 09:28:56 UTC] 1
+[28-Aug-2017 09:28:56 UTC] post_id
+[28-Aug-2017 09:28:56 UTC] 1894
+[28-Aug-2017 09:28:56 UTC] is_share
+[28-Aug-2017 09:28:56 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[28-Aug-2017 09:29:34 UTC] id post
+[28-Aug-2017 09:29:34 UTC] 1899
+[28-Aug-2017 09:29:34 UTC] 1
+[28-Aug-2017 09:29:34 UTC] post_id
+[28-Aug-2017 09:29:34 UTC] 1899
+[28-Aug-2017 09:29:34 UTC] is_share
+[28-Aug-2017 09:29:34 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:22 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 10:08:48 UTC] PHP Warning:  Missing argument 3 for update_user_meta(), called in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 79 and defined in /home/bb/public_html/wp-includes/user.php on line 820
+[31-Aug-2017 11:32:04 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/bb/public_html/wp-content/plugins/notific-news-post/includes/admin-settings.php on line 162
+[31-Aug-2017 11:34:04 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/bb/public_html/wp-content/plugins/notific-news-post/includes/admin-settings.php on line 162
+[31-Aug-2017 11:36:04 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/bb/public_html/wp-content/plugins/notific-news-post/includes/admin-settings.php on line 162
+[31-Aug-2017 11:38:04 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/bb/public_html/wp-content/plugins/notific-news-post/includes/admin-settings.php on line 162
+[31-Aug-2017 12:21:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 82
+[31-Aug-2017 12:21:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/bb/public_html/wp-content/plugins/notific-news-post/magenest-notific-news.php on line 82
+[01-Sep-2017 01:09:50 UTC] id post
+[01-Sep-2017 01:09:50 UTC] 1996
+[01-Sep-2017 01:09:50 UTC] 
+[01-Sep-2017 01:09:50 UTC] post_id
+[01-Sep-2017 01:09:50 UTC] 1996
+[01-Sep-2017 01:09:50 UTC] is_share
+[01-Sep-2017 01:09:50 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[01-Sep-2017 06:27:08 UTC] id post
+[01-Sep-2017 06:27:08 UTC] 1999
+[01-Sep-2017 06:27:08 UTC] 
+[01-Sep-2017 06:27:08 UTC] post_id
+[01-Sep-2017 06:27:08 UTC] 1999
+[01-Sep-2017 06:27:08 UTC] is_share
+[01-Sep-2017 06:27:08 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[01-Sep-2017 06:27:18 UTC] id post
+[01-Sep-2017 06:27:18 UTC] 2000
+[01-Sep-2017 06:27:18 UTC] 
+[01-Sep-2017 06:27:18 UTC] post_id
+[01-Sep-2017 06:27:18 UTC] 2000
+[01-Sep-2017 06:27:18 UTC] is_share
+[01-Sep-2017 06:27:18 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[01-Sep-2017 07:17:05 UTC] id post
+[01-Sep-2017 07:17:05 UTC] 2002
+[01-Sep-2017 07:17:05 UTC] 
+[01-Sep-2017 07:17:05 UTC] post_id
+[01-Sep-2017 07:17:05 UTC] 2002
+[01-Sep-2017 07:17:05 UTC] is_share
+[01-Sep-2017 07:17:05 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[01-Sep-2017 07:17:10 UTC] id post
+[01-Sep-2017 07:17:10 UTC] 2003
+[01-Sep-2017 07:17:10 UTC] 
+[01-Sep-2017 07:17:10 UTC] post_id
+[01-Sep-2017 07:17:10 UTC] 2003
+[01-Sep-2017 07:17:10 UTC] is_share
+[01-Sep-2017 07:17:10 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[01-Sep-2017 07:19:36 UTC] id post
+[01-Sep-2017 07:19:36 UTC] 2003
+[01-Sep-2017 07:19:36 UTC] 
+[01-Sep-2017 07:20:21 UTC] id post
+[01-Sep-2017 07:20:21 UTC] 2002
+[01-Sep-2017 07:20:21 UTC] 
+[01-Sep-2017 08:31:41 UTC] id post
+[01-Sep-2017 08:31:41 UTC] 2007
+[01-Sep-2017 08:31:41 UTC] 1
+[01-Sep-2017 08:31:41 UTC] post_id
+[01-Sep-2017 08:31:41 UTC] 2007
+[01-Sep-2017 08:31:41 UTC] is_share
+[01-Sep-2017 08:31:41 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[01-Sep-2017 08:33:53 UTC] id post
+[01-Sep-2017 08:33:53 UTC] 2007
+[01-Sep-2017 08:33:53 UTC] 1
+[01-Sep-2017 08:35:17 UTC] id post
+[01-Sep-2017 08:35:17 UTC] 2012
+[01-Sep-2017 08:35:17 UTC] 1
+[01-Sep-2017 08:35:17 UTC] post_id
+[01-Sep-2017 08:35:17 UTC] 2012
+[01-Sep-2017 08:35:17 UTC] is_share
+[01-Sep-2017 08:35:17 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/activity-hooks.php on line 180
+[01-Sep-2017 08:38:25 UTC] id post
+[01-Sep-2017 08:38:25 UTC] 2012
+[01-Sep-2017 08:38:25 UTC] 1
+[01-Sep-2017 08:59:05 UTC] id post
+[01-Sep-2017 08:59:05 UTC] 2012
+[01-Sep-2017 08:59:05 UTC] 1
+[01-Sep-2017 08:59:19 UTC] id post
+[01-Sep-2017 08:59:19 UTC] 2012
+[01-Sep-2017 08:59:19 UTC] 1
+[04-Sep-2017 07:02:37 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 371
+[04-Sep-2017 07:02:37 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 376

@@ -1,0 +1,141 @@
+#anspress .ap-list-head .ap-btn-ask{
+    background: #2488B7;
+    border-color: #2488B7;
+}
+body ul #ap-notification-dropdown {
+    border: 1px solid #ddd;
+    display: none;
+    position: absolute;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+    font-family: "helvetica",arial,serif;
+    text-transform: none;
+    width: 350px;
+    font-size: 13px;
+    z-index: 9999;
+    background: white;
+    left: -270px;
+}
+#ap-search-form .ap-search-input{
+    border-radius: 0px;
+}
+#anspress .ap-btn{
+    color: #2488B7;
+}
+.ap-questions{
+    padding: 30px 0;
+}
+#anspress .ap-questions-item{
+    padding: 15px 0;
+}
+
+#anspress .ap-q-cells, #anspress .ap-a-cells {
+    padding: 20px;
+    border: 1px solid #eee;
+    margin-bottom: 40px;
+}
+#anspress .ap-q-metas {
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    font-weight: 400;
+    margin: -20px -20px 15px;
+    padding: 15px 20px;
+}
+div#ap-single {
+    padding-top: 30px;
+}
+#ap-single .entry-title{
+    margin-bottom: 10px;
+}
+#ap-single .entry-title a{
+    font-size: 30px;
+    color: #000000;
+}
+.ap-question-meta{
+    font-size: 18px;
+}
+.stat-label{
+    margin-right: 10px;
+}
+#anspress .ap-question-meta {
+    margin-bottom: 35px;
+    color: #797979;
+}
+#anspress .ap-user-meta a,
+#anspress a
+ {
+    color: #559ab3;
+}
+#anspress .ap-questions-tab>li.active a, #anspress .ap-answers-tab>li.active a{
+    background: #559ab3;
+}
+.ap-q-inner{
+    font-size: 18px;
+}
+#main.forum-login{
+    width: auto;
+    margin-left: inherit;
+}
+#menu-item-65{
+    font-size: 22px;
+}
+#ap-userdp-noti{
+    position: absolute;
+    top: -20px;
+}
+#anspress {
+    background: none;
+}
+#ap-ask-page .col-md-6.bb-login-form {
+    border: 1px solid rgba(171, 171, 171, 0.52);
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+.bb-login-form h3{
+    font-size: 18px;
+    line-height: inherit;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bb-login-form-header{
+    background: #efeeee;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.bb-login-form-inner{
+    padding: 20px;
+}
+.bb-login-form-inner input:focus{
+    border-color: #2488B7 !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+#anspress .ap-user-navigation{
+    padding-top: 15px;
+}
+#anspress .ap-btn-submit {
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 3px;
+    color: #333;
+    font-weight: 600;
+    line-height: 1.6;
+    padding: 10px 20px;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 14px;
+    background: #2488B7;
+    color: #f3f3f3 !important;
+}
+#anspress .ap-btn:hover{
+    color: #2488B7 !important;
+    background: white;
+}
+#anspress #ap-user-menu>li{
+    line-height: 1.4em;
+}
+#anspress label>input[type="checkbox"] {
+     margin-top: 0 !important; 
+}

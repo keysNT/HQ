@@ -1,0 +1,25 @@
+<?php if (!defined('TWEAKR_INIT')) die('DIRECT ACCESS PROHIBITED'); ?>
+
+
+    <!-- TinyMCE -->
+    <div class="postbox">
+    <h3 class="hndle"><span><?php _e('Visual Editor (TinyMCE)', 'tweakr'); ?></span></h3>
+    <div class="inside tweakr-setting-section">
+
+        <?php 
+            // Autowidth
+            $this->_settingsUtility->displayCheckbox(__('Autowidth', 'tweakr'), 'tinymce-autowidth', array(
+                'label' => 'Enable automatic width',
+                'description' => 'Removes the fixed-width restriction and set it to auto (95% of maximal available width will be used).'
+            ));
+
+            // Visual Components
+            $this->_settingsUtility->displayCheckbox(__('Visual Components', 'tweakr'), 'tinymce-visualcomponents', array(
+                'label' => 'Enable Visual Element Highlighting',
+                'description' => 'To visualize the Element alignment, the following html tags are highlighted in Visual Editor Mode: p,h1,h2,h3,h4,h5,h6,section.'
+            ));
+
+        ?>
+
+    <!-- // TinyMCE -->
+    </div></div>

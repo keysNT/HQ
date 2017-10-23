@@ -1,0 +1,73 @@
+/*! Tweakr VisualComponents for TinyMCE (WordPress 4.7) */
+
+// Generator
+.visualComponentSettings(@text, @color, @textcolor: #202020){
+    border-color: @color;
+
+    &::before{
+        content: @text;
+        background-color: @color;
+        color: @textcolor;
+    }
+}
+.visualComponent(){
+    position: relative;
+    border: dashed 1px;
+
+    &::before{
+        content: '-';
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: normal;
+        height: 16px;
+        line-height: 16px;
+        width: 100px;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0px;
+        font-weight: bold;
+        position: absolute;
+        right: 8px;
+        top: -8px;
+        z-index: 10;
+    }
+}
+.containerComponent(@text, @color, @textcolor: #202020){
+    .visualComponentSettings(@text, @color, @textcolor);
+        padding: 20px 10px 10px 10px;
+        border: solid 2px @color;
+        margin: 10px 0px 10px 0px;
+        &::before{
+            width: 400px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p, section{
+    .visualComponent();
+}
+
+h1{
+    .visualComponentSettings('Heading 1', #0073aa, #f0f0f0);
+}
+h2{
+    .visualComponentSettings('Heading 2', #0073aa, #f0f0f0);
+}
+h3{
+    .visualComponentSettings('Heading 3', #0073aa, #f0f0f0);
+}
+h4{
+    .visualComponentSettings('Heading 4', #0073aa, #f0f0f0);
+}
+h5{
+    .visualComponentSettings('Heading 5', #0073aa, #f0f0f0);
+}
+h6{
+    .visualComponentSettings('Heading 6', #0073aa, #f0f0f0);
+}
+p{
+    .visualComponentSettings('Paragraph', #23282d, #f0f0f0);
+}
+section{
+    .containerComponent('Section', #0073aa, #f0f0f0);
+}
