@@ -15,14 +15,20 @@
     <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/user-questions.php" line="4" />
     <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/class/activity.php" line="624" />
     <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/ajax_notific.js" line="23" />
-    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php" line="74" />
+    <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php" line="117" />
     <bookmark url="file://$PROJECT_DIR$/wp-content/themes/bluebell/content-page.php" line="6" />
     <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/notification.php" line="28" />
     <bookmark url="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php" line="170" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf496540-1275-40fc-8692-0ed03fea81bd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notification.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/ht-comming-soon" afterPath="$PROJECT_DIR$/wp-content/plugins/ht-comming-soon" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-sync-db" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-sync-db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-sync-db-media-files" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-sync-db-media-files" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/debug.log" afterPath="$PROJECT_DIR$/wp-content/debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php" afterPath="$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php" />
     </list>
     <ignored path="bb.seoulmage.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,8 +53,8 @@
       <file leaf-file-name="ajax_notific.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/ajax_notific.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="344">
+              <caret line="73" column="53" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="53" />
               <folding>
                 <element signature="n#!!block;n#remove_notific_seen#0" expanded="false" />
                 <marker date="1507515746529" expanded="true" signature="2846:2870" ph="..." />
@@ -58,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin-settings.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin-settings.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+            <state relative-caret-position="307">
+              <caret line="185" column="50" selection-start-line="184" selection-start-column="12" selection-end-line="185" selection-end-column="50" />
               <folding>
                 <marker date="1508558333176" expanded="true" signature="7858:7872" ph="..." />
                 <marker date="1508558333176" expanded="true" signature="8722:8727" ph="..." />
@@ -74,24 +80,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class-wp-hook.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-hook.php">
+      <file leaf-file-name="magenest-notification.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notification.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4545">
-              <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="435">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#43#0" expanded="false" />
+                <marker date="1508750712877" expanded="true" signature="1225:1249" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="magenest-notific-news.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="magenest-notific-news.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="43" column="65" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+            <state relative-caret-position="286">
+              <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
               <folding>
-                <marker date="1507515421440" expanded="true" signature="3005:3079" ph="SELECT noti_... ${$tbl}" />
-                <marker date="1507515421440" expanded="true" signature="3235:3293" ph="DELETE FROM " />
+                <element signature="n#install#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
+                <marker date="1508751819017" expanded="true" signature="4454:4528" ph="SELECT noti_... ${$tbl}" />
+                <marker date="1508751819017" expanded="true" signature="4684:4742" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -113,8 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/plugins/cz-redirect-login-to-questions/cz-redirect-login-to-questions.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/cz-redirect-login-to-questions/funtions.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/search-form.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/categories-for-anspress/categories-for-anspress.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/notification.php" />
@@ -158,12 +166,14 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/theme/default/user/user.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bluebell/anspress/user/user.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/includes/ajax-hooks.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/ajax_notific.js" />
         <option value="$USER_HOME$/.cache/.fr-C4RzKg/Ticket/view/adminhtml/ui_component/product_form.xml" />
         <option value="$USER_HOME$/.cache/.fr-E88Buo/Ticket/view/adminhtml/ui_component/product_form.xml" />
         <option value="$USER_HOME$/.cache/.fr-AMsQCl/QuickBooksOnline/Ui/Component/Listing/Columns/Mapping.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notify.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notification.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php" />
       </list>
     </option>
   </component>
@@ -340,7 +350,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../review/SalesforceIntegration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -428,12 +438,12 @@
       <workItem from="1508308498922" duration="1260000" />
       <workItem from="1508484671301" duration="879000" />
       <workItem from="1508552409879" duration="9252000" />
-      <workItem from="1508736858533" duration="1223000" />
+      <workItem from="1508736858533" duration="11957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288156000" />
+    <option name="totallyTimeSpent" value="298890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,19 +462,19 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15102041" sideWeight="0.502574" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8276334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25225225" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3877551" sideWeight="0.497426" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8276334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3877551" sideWeight="0.497426" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -521,43 +531,12 @@
           <line>704</line>
           <option name="timeStamp" value="413" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php</url>
-          <line>191</line>
-          <option name="timeStamp" value="433" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php</url>
-          <line>199</line>
-          <option name="timeStamp" value="434" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="435" />
+      <option name="time" value="444" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../phpmyadmin/phpmyadmin.css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../phpmyadmin/js/get_scripts.js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/anspress-question-answer/assets/js/anspress_site.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="327" column="46" selection-start-line="327" selection-start-column="46" selection-end-line="327" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../AppointmentBooking/wp-admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -809,6 +788,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="668" column="0" selection-start-line="668" selection-start-column="0" selection-end-line="668" selection-end-column="0" />
+          <folding>
+            <marker date="1504841944978" expanded="true" signature="56414:56448" ph="UPDATE `${$t... " />
+            <marker date="1504841944978" expanded="true" signature="58403:58430" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -816,6 +799,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="378" column="0" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
+          <folding>
+            <marker date="1504841946886" expanded="true" signature="26016:26243" ph="SELECT tr.ob... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1504841946886" expanded="true" signature="34307:34429" ph="SELECT t.*, ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="52971:53014" ph="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="53034:53165" ph="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="54093:54262" ph="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="54359:54533" ph="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="54625:54685" ph="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="54772:54837" ph="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="66424:66500" ph="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1504841946886" expanded="true" signature="67593:67668" ph="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1504841946886" expanded="true" signature="68464:68518" ph="SELECT meta_... ${$wpdb-&gt;termmeta}" />
+            <marker date="1504841946886" expanded="true" signature="69145:69205" ph="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1504841946886" expanded="true" signature="78669:78697" ph="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="81515:81670" ph="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1504841946886" expanded="true" signature="82363:82592" ph="SELECT t.ter... ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="86762:86863" ph="SELECT term_... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1504841946886" expanded="true" signature="88075:88194" ph="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1504841946886" expanded="true" signature="88845:89016" ph="INSERT INTO ${$wpdb-&gt;term_relationships}... " />
+            <marker date="1504841946886" expanded="true" signature="91943:92038" ph="DELETE FROM " />
+            <marker date="1504841946886" expanded="true" signature="95129:95192" ph="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="95258:95303" ph="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="95475:95520" ph="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="99227:99255" ph="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="100598:100753" ph="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1504841946886" expanded="true" signature="109309:109395" ph="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1504841946886" expanded="true" signature="118782:119049" ph="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1504841946886" expanded="true" signature="120574:120701" ph="SELECT t.*, ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="122096:122430" ph="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1504841946886" expanded="true" signature="122295:122357" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1504841946886" expanded="true" signature="122520:122755" ph="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1504841946886" expanded="true" signature="123604:123678" ph="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1504841946886" expanded="true" signature="126007:126103" ph="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1504841946886" expanded="true" signature="126463:126531" ph="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1504841946886" expanded="true" signature="126796:126847" ph="SELECT t.* F... ${$wpdb-&gt;terms}" />
+            <marker date="1504841946886" expanded="true" signature="127554:127616" ph="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1504841946886" expanded="true" signature="127699:127784" ph="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1504841946886" expanded="true" signature="128418:128478" ph="SELECT taxon... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1504841946886" expanded="true" signature="129184:129381" ph="SELECT tt.te... $" />
+            <marker date="1504841946886" expanded="true" signature="131085:131283" ph="SELECT tt.te... $" />
+            <marker date="1504841946886" expanded="true" signature="132012:132088" ph="SELECT * FRO... $" />
+            <marker date="1504841946886" expanded="true" signature="135131:135533" ph="SELECT m1.po... $" />
+            <marker date="1504841946886" expanded="true" signature="138217:138277" ph="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -823,6 +850,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -830,6 +858,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="754" column="0" selection-start-line="754" selection-start-column="0" selection-end-line="754" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -847,67 +876,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-query.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notify.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="3236" column="48" selection-start-line="3236" selection-start-column="48" selection-end-line="3236" selection-end-column="48" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="1688" column="30" selection-start-line="1688" selection-start-column="30" selection-end-line="1688" selection-end-column="30" />
+        <state relative-caret-position="10">
+          <caret line="1660" column="9" selection-start-line="1660" selection-start-column="9" selection-end-line="1660" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7479">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="18" />
           <folding>
-            <marker date="1504841948882" expanded="true" signature="57509:57525" ph="Insert into post... " />
-            <marker date="1504841948882" expanded="true" signature="57535:57551" ph="Insert into page... " />
-            <marker date="1504841948882" expanded="true" signature="83259:83343" ph="SELECT post_... $" />
-            <marker date="1504841948882" expanded="true" signature="85279:85430" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="85600:85693" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="91421:91461" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="92868:92936" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="93261:93338" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="93790:93855" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1504841948882" expanded="true" signature="94048:94102" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1504841948882" expanded="true" signature="98690:98773" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1504841948882" expanded="true" signature="100695:100778" ph="UPDATE ${$wp... " />
-            <marker date="1504841948882" expanded="true" signature="120641:120682" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="132181:132257" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="133330:133465" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="134583:134678" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="148833:148885" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="151469:151609" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="153426:153524" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="153585:153662" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="165719:165777" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="170187:170227" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="171345:171410" ph="SELECT comme... ${$wpdb-&gt;comments}" />
-            <marker date="1504841948882" expanded="true" signature="171604:171658" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1504841948882" expanded="true" signature="172229:172348" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
-            <marker date="1504841948882" expanded="true" signature="194507:194652" ph="SELECT post_... " />
-            <marker date="1504841948882" expanded="true" signature="194708:194849" ph="SELECT post_... " />
-            <marker date="1504841948882" expanded="true" signature="194945:195139" ph="SELECT DATE_... " />
-            <marker date="1504841948882" expanded="true" signature="205863:205973" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-            <marker date="1504841948882" expanded="true" signature="208494:208550" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+            <marker date="1504841961774" expanded="true" signature="77053:77148" ph="SELECT ${$di... " />
+            <marker date="1504841961774" expanded="true" signature="85381:85479" ph="SELECT ${$fo... $" />
+            <marker date="1504841961774" expanded="true" signature="88297:88405" ph="SELECT ${$fo... " />
+            <marker date="1504841961774" expanded="true" signature="90713:90798" ph="SELECT ${{$w... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php">
+    <entry file="file://$PROJECT_DIR$/wp-settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="65" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
-          <folding>
-            <marker date="1507515421440" expanded="true" signature="3005:3079" ph="SELECT noti_... ${$tbl}" />
-            <marker date="1507515421440" expanded="true" signature="3235:3293" ph="DELETE FROM " />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="302" column="0" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-hook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="304" column="0" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/ajax_notific.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="344">
+          <caret line="73" column="53" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="53" />
           <folding>
             <element signature="n#!!block;n#remove_notific_seen#0" expanded="false" />
             <marker date="1507515746529" expanded="true" signature="2846:2870" ph="..." />
@@ -916,24 +933,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-hook.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notification.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4545">
-          <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="435">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+            <marker date="1508750712877" expanded="true" signature="1225:1249" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+        <state relative-caret-position="307">
+          <caret line="185" column="50" selection-start-line="184" selection-start-column="12" selection-end-line="185" selection-end-column="50" />
           <folding>
             <marker date="1508558333176" expanded="true" signature="7858:7872" ph="..." />
             <marker date="1508558333176" expanded="true" signature="8722:8727" ph="..." />
             <marker date="1508558333176" expanded="true" signature="8722:8740" ph="..." />
             <marker date="1508558333176" expanded="true" signature="8722:8745" ph="..." />
             <marker date="1508558333176" expanded="true" signature="8722:8746" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
+          <folding>
+            <element signature="n#install#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
+            <marker date="1508751819017" expanded="true" signature="4454:4528" ph="SELECT noti_... ${$tbl}" />
+            <marker date="1508751819017" expanded="true" signature="4684:4742" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>

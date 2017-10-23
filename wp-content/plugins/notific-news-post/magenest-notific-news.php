@@ -41,12 +41,55 @@ class MAGENEST_NOTIFIC_NEWS{
         add_action('wp_ajax_remove_news_seen', array($this, 'remove_news_seen') );
         add_action('wp_ajax_remove_notific_seen', array($this, 'remove_notific_seen') );
         add_action('wp_ajax_add_news_icon', array($this, 'add_news_icon') );
+
+        add_action('wp_ajax_create_notification', array($this, 'create_notification') );
+
         add_action('publish_post', array('ADMIN_SETTINGS','save_table_notific_news'), 10);
-        add_filter('wp_nav_menu', array('ADMIN_SETTINGS','insert_notific'), 1,2);
+       // add_filter('wp_nav_menu', array('ADMIN_SETTINGS','insert_notific'), 1,2);
         //add_action('wp_enqueue_scripts', array($this,'load_custom_scripts'));
         if (is_admin ()) {
             add_action ( 'admin_enqueue_scripts', array ($this,'load_admin_scripts' ), 99 );
             add_action('admin_menu', array($this, 'create_admin_menu'), 5);
+        }
+    }
+    public function create_notification(){
+        global $wpdb;
+        $pageTbl = $wpdb->prefix.'posts';
+        $title_arrs = $_REQUEST['title'];
+        $number_date = get_option('numberdate');
+        $args = array(
+            'post_type' => 'page',
+            'order'=>'DESC',
+            'date_query' => array(
+                array(
+                    'after' => '- ' . $number_date . ' days',
+                    'column' => 'post_modified_gmt',
+                ),
+            )
+        );
+        $the_query = new WP_Query($args);
+        $pages = $the_query->posts;
+        $data = array();
+        foreach ($pages as $page){
+            foreach ($title_arrs as $title_arr){
+                if($page->post_title == $title_arr[0]){
+                    $data[] = array($title_arr[0],$title_arr[1],$page->ID);
+                }
+            }
+        }
+        $output['title'] = $data;
+        $output['type'] = 'success';
+        echo json_encode($output);
+        wp_die();
+    }
+    public function check_link_post($post_content){
+        $user_id = get_current_user_id();
+        $strdata = get_user_meta($user_id, 'post_id_seen');
+        if(isset($strdata)) {
+            $data = explode(' ', $strdata[0]);
+            for($i = 0; $i <= count($data); $i++){
+                $links = get_permalink($data[$i]);
+            }
         }
     }
     public function add_news_icon(){
@@ -172,7 +215,8 @@ class MAGENEST_NOTIFIC_NEWS{
         wp_enqueue_script('	jquery-ui-datepicker');
         wp_enqueue_script('jquery-ui-widget');
         wp_enqueue_style('magenestnotific' , NOTIFICNEWS_URL .'/assets/style.css');
-        wp_enqueue_script('magenestnotificjs', NOTIFICNEWS_URL . '/assets/ajax_notific.js' );
+        //wp_enqueue_script('magenestnotificjs', NOTIFICNEWS_URL . '/assets/ajax_notific.js' );
+        wp_enqueue_script('magenestnotificjs', NOTIFICNEWS_URL . '/assets/magenest-notification.js' );
     }
     public function load_admin_scripts($hook){
         global $woocommerce;
