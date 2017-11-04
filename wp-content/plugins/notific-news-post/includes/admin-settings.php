@@ -6,31 +6,24 @@ class ADMIN_SETTINGS{
     }
     public function index(){
         if(isset($_POST['btnSubmit'])){
+            global $wpdb;
             $number_date = isset($_POST['date'])?$_POST['date']:5;
             update_option('numberdate',$number_date);
-	    $users = get_users( array( 'fields' => array( 'ID' ) ) );
-            if(isset($number_date)) {
-            $all_post = get_posts(array(
-                'numberposts' => -1,
-                'post_status' => 'publish',
-                'orderby' => 'date',
-                'order' => 'DESC',
-                'date_query' => array(
-                    'column' => 'post_date',
-                    'after' => '- ' . $number_date . ' days'
-                )));
-             }
-            $i = 0;
-            foreach ($all_post as $a_post){
-                $data[$i] = $a_post->ID;
-                $i++;
-	        }
 
-	     $strdata = implode(' ', $data);
-	     foreach ($users as $user){
-		    update_user_meta($user->ID, 'post_id_seen', $strdata);
-	     }
-	     echo 'data saved';
+            $postTbl = $wpdb->prefix.'posts';
+            $string = '';
+            $today = new DateTime();
+            $toDay = $today->format('Y-m-d');
+            $sql = "SELECT ID FROM $postTbl WHERE DATE_FORMAT(post_modified, '%Y-%m-%d') >= DATE_SUB('$toDay', INTERVAL $number_date DAY) AND ID IN ( SELECT ID FROM $postTbl WHERE `post_type` = 'page' OR `post_type` = 'post')";
+            $results = $wpdb->get_results($sql, ARRAY_A);
+            foreach ($results as $result){
+                $string .= $result['ID'].' ';
+            }
+            $users = get_users( array( 'fields' => array( 'ID' ) ) );
+            foreach ($users as $user){
+                update_user_meta($user->ID, 'post_id_seen', $string);
+            }
+	        echo 'data saved';
         }
         $number = get_option('numberdate');
 ?>
@@ -41,45 +34,42 @@ class ADMIN_SETTINGS{
         </form>
 <?php
     }
-    public function save_table_notific_news($post_id){
+    public function save_post_publish_update($post_id){
         $data = array();
-        $i=0;
-
-        $users = get_users( array( 'fields' => array( 'ID' ) ) );
-
-        $number_date = get_option('numberdate', true);
-        if(isset($number_date)) {
-            $all_post = get_posts(array(
-                'numberposts' => -1,
-                'post_status' => 'publish',
-                'orderby' => 'date',
-                'order' => 'DESC',
-                'date_query' => array(
-                    'column' => 'post_modified',
-                    'after' => '- ' . $number_date . ' days'  // -7 Means last 7 days
-                )));
-        }
-
-        foreach ($all_post as $a_post){
-            $data[$i] = $a_post->ID;
-            $i++;
-        }
-
-        //$strdata = implode(' ', $data);
-        $pId = (string)$post_id;
-        foreach ($users as $user){
-            $post_each_person = get_user_meta($user->ID,'post_id_seen');
-            $strdata = explode(' ', $post_each_person[0]);
-            $flag = true;
-            foreach ($strdata as $str){
-                if($str == $pId){
-                    $flag = false;
-                    break;
+        $i = 0;
+        $users = get_users(array( 'fields' => array( 'ID' )));
+        $post_type = get_post_type($post_id);
+        if($post_type == 'page'){
+            foreach ($users as $user){
+                $post_each_person = get_user_meta($user->ID,'page_id_seen');
+                $strdata = explode(' ', $post_each_person[0]);
+                $flag = true;
+                foreach ($strdata as $str){
+                    if($str == $post_id){
+                        $flag = false;
+                        break;
+                    }
+                }
+                if($flag){
+                    $post_each_person[0] .= ' '.$post_id;
+                    update_user_meta($user->ID, 'page_id_seen', $post_each_person[0]);
                 }
             }
-            if($flag){
-                $post_each_person[0] .= ' '.$post_id;
-                update_user_meta($user->ID, 'post_id_seen', $post_each_person[0]);
+        }elseif($post_type == 'post'){
+            foreach ($users as $user){
+                $post_each_person = get_user_meta($user->ID,'post_id_seen');
+                $strdata = explode(' ', $post_each_person[0]);
+                $flag = true;
+                foreach ($strdata as $str){
+                    if($str == $post_id){
+                        $flag = false;
+                        break;
+                    }
+                }
+                if($flag){
+                    $post_each_person[0] .= ' '.$post_id;
+                    update_user_meta($user->ID, 'post_id_seen', $post_each_person[0]);
+                }
             }
         }
     }
