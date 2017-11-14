@@ -9,25 +9,18 @@ Author URI: http://magenest.com/
 License:
 Text Domain: NOTIFICNEWS
  */
-
 if (!defined('ABSPATH')) exit; // Exit if accessed directly
-
-
 if (!defined('NOTIFICNEWS_TEXT_DOMAIN'))
     define('NOTIFICNEWS_TEXT_DOMAIN', 'NOTIFICNEWS');
-
 // Plugin Folder Path
 if (!defined('NOTIFICNEWS_PATH'))
     define('NOTIFICNEWS_PATH', plugin_dir_path(__FILE__));
-
 // Plugin Folder URL
 if (!defined('NOTIFICNEWS_URL'))
     define('NOTIFICNEWS_URL', plugins_url('notific-news-post', 'magenest-notific-news.php'));
-
 // Plugin Root File
 if (!defined('NOTIFICNEWS_FILE'))
     define('NOTIFICNEWS_FILE', plugin_basename(__FILE__));
-
 class MAGENEST_NOTIFIC_NEWS{
     //Plugin version
     const VERSION = '1.0';
@@ -41,14 +34,11 @@ class MAGENEST_NOTIFIC_NEWS{
         add_action('wp_ajax_remove_news_seen', array($this, 'remove_news_seen'));
         add_action('wp_ajax_remove_notific_seen', array($this, 'remove_notific_seen') );
         add_action('wp_ajax_add_news_icon', array($this, 'add_news_icon') );
-
         add_action('wp_ajax_create_notification', array($this, 'create_notification'));
-
         add_action('wp_ajax_add_highlight', array($this, 'add_highlight'));
-
         add_action('publish_post', array('ADMIN_SETTINGS','save_post_publish_update'), 10);
         add_action('publish_page', array('ADMIN_SETTINGS','save_post_publish_update'), 10);
-        add_action( 'new_event_cronJob', array($this, 'cronJob_daily') );
+        add_action('new_event_cronJob', array($this, 'cronJob_daily') );
         if (is_admin ()) {
             add_action ( 'admin_enqueue_scripts', array ($this,'load_admin_scripts' ), 99 );
             add_action('admin_menu', array($this, 'create_admin_menu'), 5);
@@ -107,7 +97,6 @@ class MAGENEST_NOTIFIC_NEWS{
                     $links_arr[] = get_permalink($result['ID']);
                 }
             }elseif ($title == 'Training Family Community'){
-
             }else{
                 $number = $this->check_add_hightlight_post($content);
                 if($number){
@@ -120,17 +109,28 @@ class MAGENEST_NOTIFIC_NEWS{
         echo json_encode($output);
         wp_die();
     }
-    public function check_add_hightlight_page($id){
+    public function check_add_hightlight_page($post_id){
         $user_id = get_current_user_id();
         $strdata = get_user_meta($user_id, 'page_id_seen');
         $number = false;
+        $post = get_post($post_id);
+        $post_content = $post->post_content;
         if(isset($strdata)) {
             $data = explode(' ', $strdata[0]);
-            for($i = 0; $i <= count($data); $i++){
-                $link1 = get_permalink($data[$i]);
-                $link2 = get_permalink($id);
-                if($link1 == $link2){
-                    $number = true;
+            for($i = 0; $i < count($data); $i++){
+                if(get_the_title($post_id) == get_the_title($data[$i])){
+                    continue;
+                }else{
+                    $links = get_permalink($data[$i]);
+                    $lenght = strlen($links);
+                    $sub = substr($links,$lenght-1,1);
+                    if($sub == '/'){
+                        $links = substr($links,0,$lenght-1);;
+                    }
+                    $number = strpos($post_content, $links);
+                    if($number){
+                        break;
+                    }
                 }
             }
         }
@@ -204,7 +204,7 @@ class MAGENEST_NOTIFIC_NEWS{
         $data_links = $_REQUEST['link'];
         $title = $_REQUEST['title'];
         $user_id = get_current_user_id();
-        if($title == 'Pedagogical Toolbox' || $title == 'Training Programs'){
+        if($title == 'Pedagogical Toolbox'){
             $page_seen = get_user_meta($user_id,'page_id_seen');
             $page_seen = trim($page_seen[0]);
             $page_arrs = explode(' ',$page_seen);
@@ -213,13 +213,18 @@ class MAGENEST_NOTIFIC_NEWS{
             foreach ($page_arrs as $page_arr){
                 $link = get_permalink($page_arr);
                 foreach ($data_links as $data_link){
+                    $lenght = strlen($data_link[0]);
+                    $sub = substr($data_link[0],$lenght-1,1);
+                    if($sub != '/'){
+                        $data_link[0] .= '/';
+                    }
                     if($link == $data_link[0]){
                         $data[$i] = array($data_link[1],$page_arr);
                         $i++;
                     }
                 }
             }
-        }elseif ($title != 'Pedagogical Toolbox' && $title != 'Training Family Community'){
+        }elseif($title == 'Professional Development' || $title == 'Communication Development' || $title == 'Leadership & Managerial Development'){
             $post_seen = get_user_meta($user_id,'post_id_seen');
             $post_seen = trim($post_seen[0]);
             $post_arrs = explode(' ',$post_seen);
@@ -244,13 +249,22 @@ class MAGENEST_NOTIFIC_NEWS{
         // do something ...
         $user_id = get_current_user_id();
         $post_id = $_REQUEST['post_id'];
-        $strdata = get_user_meta($user_id, 'post_id_seen');
-        if(isset($strdata)){
-            $data = explode(' ', $strdata[0]);
+        $post_type = get_post_type($post_id);
+        if($post_type == 'post'){
+            $strdata = get_user_meta($user_id, 'post_id_seen');
+            if(isset($strdata)){
+                $data = explode(' ', $strdata[0]);
+            }
+            $strdata = str_replace( $post_id, '', $strdata[0] );
+            update_user_meta($user_id, 'post_id_seen', $strdata);
+        }elseif($post_type == 'page'){
+            $strdata = get_user_meta($user_id, 'page_id_seen');
+            if(isset($strdata)){
+                $data = explode(' ', $strdata[0]);
+            }
+            $strdata = str_replace( $post_id, '', $strdata[0] );
+            update_user_meta($user_id, 'page_id_seen', $strdata);
         }
-        $strdata = str_replace( $post_id, '', $strdata[0] );
-        update_user_meta($user_id, 'post_id_seen', $strdata);
-
         $output['id'] = $post_id;
         $output['type'] = 'success';
         echo json_encode($output);

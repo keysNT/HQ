@@ -22,15 +22,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cf496540-1275-40fc-8692-0ed03fea81bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/ht-comming-soon" afterPath="$PROJECT_DIR$/wp-content/plugins/ht-comming-soon" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/notific-news-post.zip" afterPath="$PROJECT_DIR$/wp-content/plugins/notific-news-post.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-sync-db" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-sync-db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-sync-db-media-files" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-sync-db-media-files" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/debug.log" afterPath="$PROJECT_DIR$/wp-content/debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notification.js" afterPath="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notification.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php" afterPath="$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php" />
     </list>
     <ignored path="bb.seoulmage.com.iws" />
@@ -53,95 +49,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ajax_notific.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/ajax_notific.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="55" selection-end-column="1" />
-              <folding>
-                <marker date="1507515746529" expanded="true" signature="2846:2870" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-settings.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="59" column="73" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="73" />
-              <folding>
-                <element signature="n#insert_notific#0;n#ADMIN_SETTINGS#0;n#!!top" expanded="false" />
-                <marker date="1509695842301" expanded="true" signature="498:703" ph="SELECT ID FR... ${$postTbl}" />
-                <marker date="1509695842301" expanded="true" signature="628:702" ph="SELECT ID FR... ${$postTbl}" />
-                <marker date="1509695842301" expanded="true" signature="8000:8014" ph="..." />
-                <marker date="1509695842301" expanded="true" signature="8864:8869" ph="..." />
-                <marker date="1509695842301" expanded="true" signature="8864:8882" ph="..." />
-                <marker date="1509695842301" expanded="true" signature="8864:8887" ph="..." />
-                <marker date="1509695842301" expanded="true" signature="8864:8888" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magenest-notific-news.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="magenest-notific-news.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="384" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="404" selection-end-column="2" />
+            <state relative-caret-position="611">
+              <caret line="418" column="2" selection-start-line="418" selection-start-column="2" selection-end-line="418" selection-end-column="2" />
               <folding>
                 <element signature="e#6#204#0#PHP" expanded="true" />
-                <element signature="n#create_notification#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-                <element signature="n#add_highlight#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-                <element signature="n#check_add_hightlight_page#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
                 <element signature="n#check_add_hightlight_post#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-                <element signature="n#check_link_page#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
                 <element signature="n#check_link_post#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-                <element signature="n#add_news_icon#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-                <element signature="n#remove_news_seen#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
                 <element signature="n#remove_notific_seen#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-                <element signature="n#cronJob_daily#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
                 <element signature="n#create_admin_menu#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
                 <element signature="n#addStyles#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
                 <element signature="n#addScripts#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
                 <element signature="n#load_admin_scripts#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-                <element signature="e#15900#16022#0#PHP" expanded="false" />
                 <element signature="n#getInstance#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-                <marker date="1509778393235" expanded="true" signature="2415:2500" ph="SELECT * FRO... ${$pageTbl}" />
-                <marker date="1509778393235" expanded="true" signature="2928:3104" ph="SELECT count... ${$wpdb-&gt;ap_notifications}" />
-                <marker date="1509778393235" expanded="true" signature="3418:3503" ph="SELECT * FRO... ${$pageTbl}" />
-                <marker date="1509778393235" expanded="true" signature="4174:4241" ph="SELECT * FRO... ${$postTbl}" />
-                <marker date="1509778393235" expanded="true" signature="10416:10490" ph="SELECT noti_... ${$tbl}" />
-                <marker date="1509778393235" expanded="true" signature="10638:10696" ph="DELETE FROM " />
-                <marker date="1509778393235" expanded="true" signature="11371:11512" ph="SELECT ID FR... ${$postTbl}" />
-                <marker date="1509778393235" expanded="true" signature="12254:12395" ph="SELECT ID FR... ${$postTbl}" />
-                <marker date="1509778393235" expanded="true" signature="13762:13904" ph="SELECT ID FR... ${$postTbl}" />
-                <marker date="1509778393235" expanded="true" signature="13924:14066" ph="SELECT ID FR... ${$postTbl}" />
+                <marker date="1510642352067" expanded="true" signature="2404:2489" ph="SELECT * FRO... ${$pageTbl}" />
+                <marker date="1510642352067" expanded="true" signature="2917:3093" ph="SELECT count... ${$wpdb-&gt;ap_notifications}" />
+                <marker date="1510642352067" expanded="true" signature="3407:3492" ph="SELECT * FRO... ${$pageTbl}" />
+                <marker date="1510642352067" expanded="true" signature="4163:4230" ph="SELECT * FRO... ${$postTbl}" />
+                <marker date="1510642352067" expanded="true" signature="11556:11630" ph="SELECT noti_... ${$tbl}" />
+                <marker date="1510642352067" expanded="true" signature="11778:11836" ph="DELETE FROM " />
+                <marker date="1510642352067" expanded="true" signature="12511:12652" ph="SELECT ID FR... ${$postTbl}" />
+                <marker date="1510642352067" expanded="true" signature="13394:13535" ph="SELECT ID FR... ${$postTbl}" />
+                <marker date="1510642352067" expanded="true" signature="14902:15044" ph="SELECT ID FR... ${$postTbl}" />
+                <marker date="1510642352067" expanded="true" signature="15064:15206" ph="SELECT ID FR... ${$postTbl}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magenest-notification.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="magenest-notification.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notification.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="91" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="141" selection-end-column="3" />
+            <state relative-caret-position="507">
+              <caret line="129" column="29" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc;n#notification_seen#0" expanded="false" />
-                <marker date="1509776698358" expanded="true" signature="2741:2765" ph="..." />
-                <marker date="1509776698358" expanded="true" signature="3052:3076" ph="..." />
-                <marker date="1509776698358" expanded="true" signature="5884:5908" ph="..." />
+                <marker date="1510642363842" expanded="true" signature="2668:2692" ph="..." />
+                <marker date="1510642363842" expanded="true" signature="2979:3003" ph="..." />
+                <marker date="1510642363842" expanded="true" signature="5762:5786" ph="..." />
               </folding>
             </state>
           </provider>
@@ -211,9 +158,9 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notify.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/style.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notification.js" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notification.js" />
       </list>
     </option>
   </component>
@@ -260,7 +207,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -387,10 +333,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RewardPoint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -488,11 +435,20 @@
       <workItem from="1509587092562" duration="1205000" />
       <workItem from="1509669284552" duration="9828000" />
       <workItem from="1509755700242" duration="9597000" />
+      <workItem from="1509955285083" duration="2320000" />
+      <workItem from="1510014967644" duration="3179000" />
+      <workItem from="1510043018162" duration="601000" />
+      <workItem from="1510119442879" duration="10418000" />
+      <workItem from="1510188204111" duration="598000" />
+      <workItem from="1510189321574" duration="7000" />
+      <workItem from="1510189336785" duration="2000" />
+      <workItem from="1510543235031" duration="10444000" />
+      <workItem from="1510627675559" duration="2141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360326000" />
+    <option name="totallyTimeSpent" value="390036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,23 +463,23 @@
     <frame x="0" y="24" width="1600" height="831" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17310168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1956242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15102041" sideWeight="0.502574" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8276334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25225225" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863947" sideWeight="0.497426" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8276334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863947" sideWeight="0.497426" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -535,7 +491,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23359074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19305019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8276334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -590,7 +546,7 @@
           <option name="timeStamp" value="387" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="474" />
+      <option name="time" value="479" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -903,16 +859,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="540" column="91" selection-start-line="540" selection-start-column="91" selection-end-line="540" selection-end-column="91" />
-          <folding>
-            <marker date="1507357075980" expanded="true" signature="27199:27274" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/includes/admin-settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="59" column="73" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="73" />
+        <state relative-caret-position="642">
+          <caret line="54" column="61" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="61" />
           <folding>
             <element signature="n#insert_notific#0;n#ADMIN_SETTINGS#0;n#!!top" expanded="false" />
             <marker date="1509695842301" expanded="true" signature="498:703" ph="SELECT ID FR... ${$postTbl}" />
@@ -928,7 +888,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/ajax_notific.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="330">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="55" selection-end-column="1" />
           <folding>
             <marker date="1507515746529" expanded="true" signature="2846:2870" ph="..." />
@@ -936,59 +896,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notification.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="91" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="141" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc;n#notification_seen#0" expanded="false" />
-            <marker date="1509776698358" expanded="true" signature="2741:2765" ph="..." />
-            <marker date="1509776698358" expanded="true" signature="3052:3076" ph="..." />
-            <marker date="1509776698358" expanded="true" signature="5884:5908" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/magenest-notific-news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="384" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="404" selection-end-column="2" />
+        <state relative-caret-position="611">
+          <caret line="418" column="2" selection-start-line="418" selection-start-column="2" selection-end-line="418" selection-end-column="2" />
           <folding>
             <element signature="e#6#204#0#PHP" expanded="true" />
-            <element signature="n#create_notification#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-            <element signature="n#add_highlight#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-            <element signature="n#check_add_hightlight_page#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
             <element signature="n#check_add_hightlight_post#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-            <element signature="n#check_link_page#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
             <element signature="n#check_link_post#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-            <element signature="n#add_news_icon#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-            <element signature="n#remove_news_seen#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
             <element signature="n#remove_notific_seen#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-            <element signature="n#cronJob_daily#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
             <element signature="n#create_admin_menu#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
             <element signature="n#addStyles#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
             <element signature="n#addScripts#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
             <element signature="n#load_admin_scripts#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-            <element signature="e#15900#16022#0#PHP" expanded="false" />
             <element signature="n#getInstance#0;n#MAGENEST_NOTIFIC_NEWS#0;n#!!top" expanded="false" />
-            <marker date="1509778393235" expanded="true" signature="2415:2500" ph="SELECT * FRO... ${$pageTbl}" />
-            <marker date="1509778393235" expanded="true" signature="2928:3104" ph="SELECT count... ${$wpdb-&gt;ap_notifications}" />
-            <marker date="1509778393235" expanded="true" signature="3418:3503" ph="SELECT * FRO... ${$pageTbl}" />
-            <marker date="1509778393235" expanded="true" signature="4174:4241" ph="SELECT * FRO... ${$postTbl}" />
-            <marker date="1509778393235" expanded="true" signature="10416:10490" ph="SELECT noti_... ${$tbl}" />
-            <marker date="1509778393235" expanded="true" signature="10638:10696" ph="DELETE FROM " />
-            <marker date="1509778393235" expanded="true" signature="11371:11512" ph="SELECT ID FR... ${$postTbl}" />
-            <marker date="1509778393235" expanded="true" signature="12254:12395" ph="SELECT ID FR... ${$postTbl}" />
-            <marker date="1509778393235" expanded="true" signature="13762:13904" ph="SELECT ID FR... ${$postTbl}" />
-            <marker date="1509778393235" expanded="true" signature="13924:14066" ph="SELECT ID FR... ${$postTbl}" />
+            <marker date="1510642352067" expanded="true" signature="2404:2489" ph="SELECT * FRO... ${$pageTbl}" />
+            <marker date="1510642352067" expanded="true" signature="2917:3093" ph="SELECT count... ${$wpdb-&gt;ap_notifications}" />
+            <marker date="1510642352067" expanded="true" signature="3407:3492" ph="SELECT * FRO... ${$pageTbl}" />
+            <marker date="1510642352067" expanded="true" signature="4163:4230" ph="SELECT * FRO... ${$postTbl}" />
+            <marker date="1510642352067" expanded="true" signature="11556:11630" ph="SELECT noti_... ${$tbl}" />
+            <marker date="1510642352067" expanded="true" signature="11778:11836" ph="DELETE FROM " />
+            <marker date="1510642352067" expanded="true" signature="12511:12652" ph="SELECT ID FR... ${$postTbl}" />
+            <marker date="1510642352067" expanded="true" signature="13394:13535" ph="SELECT ID FR... ${$postTbl}" />
+            <marker date="1510642352067" expanded="true" signature="14902:15044" ph="SELECT ID FR... ${$postTbl}" />
+            <marker date="1510642352067" expanded="true" signature="15064:15206" ph="SELECT ID FR... ${$postTbl}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/notific-news-post/assets/magenest-notification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="129" column="29" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc;n#notification_seen#0" expanded="false" />
+            <marker date="1510642363842" expanded="true" signature="2668:2692" ph="..." />
+            <marker date="1510642363842" expanded="true" signature="2979:3003" ph="..." />
+            <marker date="1510642363842" expanded="true" signature="5762:5786" ph="..." />
           </folding>
         </state>
       </provider>

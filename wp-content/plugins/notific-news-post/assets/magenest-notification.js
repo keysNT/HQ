@@ -9,12 +9,7 @@ function notification_seen(post_id) {
         var obj = JSON.parse(response);
         //var update = obj.update;
         if (obj.type ='success') {
-            // // count_notific
-            // var x = parseInt(jQuery('#count_notific').html());
-            // var y = x-1;
-            // jQuery('#count_notific').html(y);
-            // var id = '#'+obj.id;
-            // window.location.href = jQuery(id).html();
+            console.log(obj);
         } else {
             alert(obj.message);
         }
@@ -63,10 +58,12 @@ jQuery(document).ready(function(){
         var update = obj.update; var a = true;
         if (obj.type ='success') {
             var title_arr = obj.title;
-            console.log(title_arr);
             for(var i = 0; i < title_arr.length; i++){
                 if(title_arr[i][2]){
                     jQuery('.menu-box .menu-primary-menu-container .bluebell-primary-menu').find('a').each(function (j) {
+                        if(title_arr[i][0] == 'Leadership & Managerial Development'){
+                            title_arr[i][0] = 'Leadership &amp; Managerial Development';
+                        }
                         if(title_arr[i][0] == jQuery(this).html()){
                             jQuery(this).append("<span id='count_notific'><img src='https://www.bluebellretailacademy.com/wp-content/uploads/2017/11/icon-notification.png' style='width:20px; height:15px;' ></span>");
                             if((j==2 || j==3 || j==4) && a){
@@ -81,24 +78,25 @@ jQuery(document).ready(function(){
     if(jQuery('.bb-nav')[0]){
         var data = {action : 'add_highlight'};
         var arr = [];
-        console.log(jQuery('.container').find('h3').first().html());
-        data['title'] = jQuery('.container').find('h3').first().html();
-        console.log('bhihi');
+        var title = jQuery('.container').find('h3').first().html();
+        if(title == 'Leadership &amp; Managerial Development'){
+            title = 'Leadership & Managerial Development';
+        }
+        data['title'] = title; console.log(title);
         jQuery.get(ajaxurl , data , function(response) {
             var obj = JSON.parse(response);
-            var update = obj.update;
             if (obj.type = 'success') {
                 console.log('success');
-                var links_arr = obj.links;
-                console.log(links_arr);
+                var links_arr = obj.links;console.log(links_arr);
                 jQuery('.bb-nav').find('a').each(function (i) { console.log(i);
-                    var link = jQuery(this).attr('href');console.log('aaaaaaaaaaaaa');console.log(links_arr);console.log(links_arr.length);
-                    for(var j=0; j<2; j++){ console.log(link);
+                    var link = jQuery(this).attr('href');
+                    for(var j=0; j<links_arr.length; j++){
                         var l = link.length;
                         var sub = link.slice(l-1,l); console.log(sub);
                         if(sub != '/'){
                             link += '/';
                         }
+                        console.log(links_arr[j]);console.log(link);
                         if(links_arr[j] == link){
                             console.log('sssssss');
                             jQuery(this).attr('class','highlight');
@@ -112,15 +110,16 @@ jQuery(document).ready(function(){
         console.log('huhuhu');
         var data = {action : 'add_news_icon'};
         var arr = [];
-        console.log(jQuery('.container').find('h3').first().html());
-        data['title'] = jQuery('.container').find('h3').first().html();
+        var title = jQuery('.container').find('h3').first().html();
+        if(title == 'Leadership &amp; Managerial Development'){
+            title = 'Leadership & Managerial Development';
+        }
+        data['title'] = title; console.log(title);
         jQuery('.bluebell-list').find('a').each(function (i) {
             var link = jQuery(this).attr('href');
             arr[i] = [link,i];
-            console.log(link);console.log("keys");
         });
         data['link'] = arr;
-        console.log('bhihi');
         jQuery.get(ajaxurl , data , function(response) {
             var obj = JSON.parse(response);
             var update = obj.update;
@@ -128,10 +127,8 @@ jQuery(document).ready(function(){
                 var link_arr = obj.link;
                 for(var i = 0; i < link_arr.length; i++){
                     jQuery('.bluebell-list').find('a').each(function (j) {
-                        console.log('AAAA');console.log(link_arr[i][0]);console.log(j);
                         if(link_arr[i][0] == j){
                             jQuery(this).attr('onclick','notification_seen('+link_arr[i][1]+')');
-
                             jQuery(this).add("<span id='count_notific'><img src='https://www.bluebellretailacademy.com/wp-content/uploads/2017/11/icon-notification.png' style='width:20px; height:15px;'></span>").appendTo(this);// = "<span id='count_notific'>qqqq<img src='#' style='width:20px; height:15px;'></span>";
                         }
                     });
