@@ -105,33 +105,48 @@ jQuery(document).ready(function(){
                 });
             }
         });
-    }
-    if(jQuery('.bluebell-list')[0]){
+        //}
+        //if(jQuery('.bluebell-list')[0]){
         console.log('huhuhu');
         var data = {action : 'add_news_icon'};
-        var arr = [];
+        var arr = []; var j = 0;
         var title = jQuery('.container').find('h3').first().html();
         if(title == 'Leadership &amp; Managerial Development'){
             title = 'Leadership & Managerial Development';
         }
         data['title'] = title; console.log(title);
+
         jQuery('.bluebell-list').find('a').each(function (i) {
             var link = jQuery(this).attr('href');
-            arr[i] = [link,i];
+            arr[j] = [link,i,'list']; j++;
+        });
+        jQuery('.bb-nav').find('a').each(function (i) {
+            var link = jQuery(this).attr('href');
+            arr[j] = [link,i,'nav']; j++;
         });
         data['link'] = arr;
         jQuery.get(ajaxurl , data , function(response) {
             var obj = JSON.parse(response);
             var update = obj.update;
             if (obj.type ='success') {
-                var link_arr = obj.link;
+                var link_arr = obj.link; console.log('link_arr');console.log(link_arr);
                 for(var i = 0; i < link_arr.length; i++){
-                    jQuery('.bluebell-list').find('a').each(function (j) {
-                        if(link_arr[i][0] == j){
-                            jQuery(this).attr('onclick','notification_seen('+link_arr[i][1]+')');
-                            jQuery(this).add("<span id='count_notific'><img src='https://www.bluebellretailacademy.com/wp-content/uploads/2017/11/icon-notification.png' style='width:20px; height:15px;'></span>").appendTo(this);// = "<span id='count_notific'>qqqq<img src='#' style='width:20px; height:15px;'></span>";
-                        }
-                    });
+
+                    if(link_arr[i][2] == 'nav'){ console.log('nav');
+                        jQuery('.bb-nav').find('a').each(function (j) {
+                            if(link_arr[i][0] == j){
+                                jQuery(this).attr('onclick','notification_seen('+link_arr[i][1]+')');
+                                jQuery(this).attr('class','highlight');
+                            }
+                        });
+                    }else{
+                        jQuery('.bluebell-list').find('a').each(function (j) {
+                            if(link_arr[i][0] == j){
+                                jQuery(this).attr('onclick','notification_seen('+link_arr[i][1]+')');
+                                jQuery(this).add("<span id='count_notific'><img src='https://www.bluebellretailacademy.com/wp-content/uploads/2017/11/icon-notification.png' style='width:20px; height:15px;'></span>").appendTo(this);// = "<span id='count_notific'>qqqq<img src='#' style='width:20px; height:15px;'></span>";
+                            }
+                        });
+                    }
                 }
             }
         });

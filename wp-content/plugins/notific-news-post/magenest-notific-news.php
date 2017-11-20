@@ -36,13 +36,17 @@ class MAGENEST_NOTIFIC_NEWS{
         add_action('wp_ajax_add_news_icon', array($this, 'add_news_icon') );
         add_action('wp_ajax_create_notification', array($this, 'create_notification'));
         add_action('wp_ajax_add_highlight', array($this, 'add_highlight'));
-        add_action('publish_post', array('ADMIN_SETTINGS','save_post_publish_update'), 10);
-        add_action('publish_page', array('ADMIN_SETTINGS','save_post_publish_update'), 10);
+        add_action('publish_post', array($this,'savepost_publish'), 10);
+        add_action('publish_page', array($this,'savepost_publish'), 10);
         add_action('new_event_cronJob', array($this, 'cronJob_daily') );
         if (is_admin ()) {
             add_action ( 'admin_enqueue_scripts', array ($this,'load_admin_scripts' ), 99 );
             add_action('admin_menu', array($this, 'create_admin_menu'), 5);
         }
+    }
+    public function savepost_publish($post_id){
+        $admin = new ADMIN_SETTINGS();
+        $admin->save_post_publish_update($post_id);
     }
     //find all post and page update or publish
     public function create_notification(){
@@ -55,8 +59,12 @@ class MAGENEST_NOTIFIC_NEWS{
                 $sql = "SELECT * FROM ".$pageTbl." WHERE `post_type` = 'page' AND `post_title` = '$title_arr'";
                 $pages = $wpdb->get_results($sql, ARRAY_A);
                 foreach ($pages as $page){
-                    $number = $this->check_link_page($page['post_content']);
-                    $data[] = array($title_arr,$page['ID'],$number);
+                    if($page['ID'] == 48){
+                        continue;
+                    }else{
+                        $number = $this->check_link_page($page['post_content']);
+                        $data[] = array($title_arr,$page['ID'],$number);
+                    }
                 }
             }elseif ($title_arr == 'Training Family Community'){
                 $user_id = get_current_user_id();
@@ -219,7 +227,7 @@ class MAGENEST_NOTIFIC_NEWS{
                         $data_link[0] .= '/';
                     }
                     if($link == $data_link[0]){
-                        $data[$i] = array($data_link[1],$page_arr);
+                        $data[$i] = array($data_link[1],$page_arr,$data_link[2]);
                         $i++;
                     }
                 }
@@ -234,7 +242,7 @@ class MAGENEST_NOTIFIC_NEWS{
                 $link = get_permalink($post_arr);
                 foreach ($data_links as $data_link){
                     if($link == $data_link[0]){
-                        $data[$i] = array($data_link[1],$post_arr);
+                        $data[$i] = array($data_link[1],$post_arr,$data_link[2]);
                         $i++;
                     }
                 }

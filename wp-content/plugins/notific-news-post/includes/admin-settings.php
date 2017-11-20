@@ -23,16 +23,16 @@ class ADMIN_SETTINGS{
             foreach ($users as $user){
                 update_user_meta($user->ID, 'post_id_seen', $string);
             }
-	        echo 'data saved';
+            echo 'data saved';
         }
         $number = get_option('numberdate');
-?>
+        ?>
         <form method="post">
             <h2>a post will has new status within x days</h2>
             <input type="text" name="date" required value="<?= isset($number)?$number:''; ?>" style="text-align: center;"/>
             <input type="submit" name="btnSubmit" value="Save changes"/>
         </form>
-<?php
+        <?php
     }
     public function save_post_publish_update($post_id){
         $data = array();
@@ -87,7 +87,7 @@ class ADMIN_SETTINGS{
             // invalid value, fall back to default.
             $args['item_spacing'] = $defaults['item_spacing'];
         }
-        
+
         $args = apply_filters( 'wp_nav_menu_args', $args );
         $args = (object) $args;
         $nav_menu = apply_filters( 'pre_wp_nav_menu', null, $args );
@@ -146,7 +146,7 @@ class ADMIN_SETTINGS{
                 $nav_menu .= '<'. $args->container . $id . $class . '>';
             }
         }
-        
+
         // Set up the $menu_item variables
         _wp_menu_item_classes_by_context( $menu_items );
 
@@ -169,7 +169,7 @@ class ADMIN_SETTINGS{
                 )));
         }
         $user_id = get_current_user_id();
-       // var_dump(count($posts));
+        // var_dump(count($posts));
         foreach ($posts as $post){
             $strdata = get_user_meta($user_id, 'post_id_seen');
             if(isset($strdata)){
@@ -181,10 +181,10 @@ class ADMIN_SETTINGS{
                         //$post_term_id = $postcat[0]->term_id;
                         foreach ( (array) $menu_items as $menu_item ) {
                             //if($post_term_id == $menu_item->object_id){
-                                // onclick='insertDatabase(".$post->ID.")'
-				                //$url = get_permalink($post->ID);
-                                $item = "<li class='items'><span style='display: none;' id='".$post->ID."'>".get_permalink($post->ID)."</span><a href='#'  onclick='insertDatabase(".$post->ID.")'>-> ".get_the_title($post->ID)."</a></li>";
-                                $parent = 10;
+                            // onclick='insertDatabase(".$post->ID.")'
+                            //$url = get_permalink($post->ID);
+                            $item = "<li class='items'><span style='display: none;' id='".$post->ID."'>".get_permalink($post->ID)."</span><a href='#'  onclick='insertDatabase(".$post->ID.")'>-> ".get_the_title($post->ID)."</a></li>";
+                            $parent = 10;
                             //}
                         }
                         $form .= $item;
@@ -230,9 +230,9 @@ class ADMIN_SETTINGS{
         $menu_id_slugs[] = $wrap_id;
 
         $wrap_class = $args->menu_class ? $args->menu_class : '';
-        
+
         $items = apply_filters( 'wp_nav_menu_items', $items, $args );
-        
+
         $items = apply_filters( "wp_nav_menu_{$menu->slug}_items", $items, $args );
 
         // Don't print any markup if there are no items at this point.
@@ -244,10 +244,10 @@ class ADMIN_SETTINGS{
 
         if ( $show_container )
             $nav_menu .= '</' . $args->container . '>';
-        
+
         return $nav_menu;
     }
     public static function get_all_notific($content, $args){
-        
+
     }
 }
